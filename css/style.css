@@ -46,6 +46,13 @@ header,
     margin-right: auto;
 }
 
+.img-product-features {
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .center-text-quote {
     display: flex;
     align-items:center;
@@ -88,8 +95,8 @@ header,
 }
 
 .section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .section_grey {
@@ -98,6 +105,20 @@ header,
 
 .purchase-text {
     text-align: center;
+}
+
+text-center {
+    text-align: center;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -133,8 +154,8 @@ header,
 
 @media only screen and (min-width : 992px) {
     .section {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
         .img-custom {
         width:100%;
