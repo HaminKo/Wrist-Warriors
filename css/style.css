@@ -115,13 +115,14 @@ text-center {
 }
 
 .row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 /*
