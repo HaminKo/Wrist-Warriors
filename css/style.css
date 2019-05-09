@@ -47,6 +47,9 @@ header,
 }
 
 .img-product-features {
+    -webkit-width:60%;
+    -moz-width:60%;
+    -o-width:60%;
     width:60%;
     display: block;
     margin-left: auto;
